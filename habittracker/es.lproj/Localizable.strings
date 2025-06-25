@@ -1,0 +1,192 @@
+/* Navigation */
+"nav.overview" = "Resumen";
+"nav.daily" = "Diario";
+"nav.add" = "Añadir";
+"nav.stats" = "Estadísticas";
+"nav.profile" = "Perfil";
+
+/* Daily View */
+"daily.title" = "Hoy";
+"daily.progress" = "%d%%";
+"daily.streak" = "🔥 %d";
+"daily.completions" = "%d/%d";
+
+/* Calendar View */
+"calendar.title" = "Mes";
+"calendar.today" = "Hoy";
+"calendar.selectedDay" = "Día Seleccionado";
+"calendar.noHabits" = "No hay hábitos para este día";
+"calendar.completed" = "Completado";
+"calendar.notCompleted" = "No completado";
+
+/* Add Habit View */
+"add.title" = "Nuevo Hábito";
+"add.name" = "Nombre";
+"add.namePlaceholder" = "ej. Meditación, Ejercicio...";
+"add.icon" = "Icono";
+"add.color" = "Color";
+"add.category" = "Categoría";
+"add.targetCount" = "Meta Diaria";
+"add.frequency" = "Frecuencia";
+"add.preview" = "Vista Previa";
+"add.previewDefault" = "Mi nuevo hábito";
+"add.create" = "Crear Hábito";
+"add.nameRequired" = "Por favor ingresa un nombre";
+"add.targetDaily" = "%dx diario";
+"add.goalDaily" = "Meta: %dx diario";
+"add.close" = "Cerrar";
+
+/* Categories */
+"category.fitness" = "Fitness";
+"category.health" = "Salud";
+"category.wellness" = "Bienestar";
+"category.education" = "Educación";
+"category.creativity" = "Creatividad";
+"category.social" = "Social";
+"category.productivity" = "Productividad";
+"category.general" = "General";
+
+/* Frequencies */
+"frequency.daily" = "Diario";
+"frequency.weekly" = "Semanal";
+"frequency.custom" = "Personalizado";
+
+/* Stats View */
+"stats.title" = "Estadísticas";
+"stats.timeframe.week" = "Semana";
+"stats.timeframe.month" = "Mes";
+"stats.timeframe.year" = "Año";
+"stats.overview" = "Resumen";
+"stats.totalHabits" = "Hábitos Totales";
+"stats.todayCompleted" = "Completados Hoy";
+"stats.averageCompletion" = "Tasa de Completación Promedio";
+"stats.bestStreak" = "Mejor Racha";
+"stats.habitPerformance" = "Rendimiento de Hábitos";
+"stats.topStreaks" = "Mejores Rachas";
+"stats.weeklyPattern" = "Patrón Semanal";
+"stats.noData" = "No hay datos disponibles";
+
+/* Profile View */
+"profile.title" = "Perfil";
+"profile.settings" = "Configuraciones";
+"profile.darkMode" = "Modo Oscuro";
+"profile.dataManagement" = "Gestión de Datos";
+"profile.exportData" = "Exportar Datos";
+"profile.deleteAllData" = "Eliminar Todos los Datos";
+"profile.about" = "Acerca de";
+"profile.version" = "Versión";
+"profile.habitCount" = "%d Hábitos";
+"profile.exportTitle" = "Exportar Datos";
+"profile.exportDescription" = "Tus datos de hábitos:";
+"profile.copyToClipboard" = "Copiar al Portapapeles";
+"profile.copied" = "¡Copiado!";
+"profile.deleteConfirmation" = "¿Eliminar Todos los Datos?";
+"profile.deleteWarning" = "Esta acción no se puede deshacer.";
+"profile.delete" = "Eliminar";
+"profile.cancel" = "Cancelar";
+
+/* Days of Week */
+"day.monday" = "Lun";
+"day.tuesday" = "Mar";
+"day.wednesday" = "Mié";
+"day.thursday" = "Jue";
+"day.friday" = "Vie";
+"day.saturday" = "Sáb";
+"day.sunday" = "Dom";
+
+/* Days of Week Short */
+"day.monday.short" = "Lu";
+"day.tuesday.short" = "Ma";
+"day.wednesday.short" = "Mi";
+"day.thursday.short" = "Ju";
+"day.friday.short" = "Vi";
+"day.saturday.short" = "Sá";
+"day.sunday.short" = "Do";
+
+/* Sample Habits */
+"sample.workout" = "Ejercicio";
+"sample.meditation" = "Meditación";
+"sample.reading" = "Leer por 30 minutos";
+"sample.water" = "Beber agua";
+
+/* Stats View Missing */
+"stats.timeframe.week" = "Semana";
+"stats.timeframe.month" = "Mes";
+"stats.timeframe.year" = "Año";
+"stats.streakAnalysis" = "Análisis de Racha";
+"stats.days" = "Días";
+"stats.weeklyPatternTitle" = "Patrón Semanal";
+"stats.description" = "Resumen de tu progreso";
+"stats.successRate" = "%.0f%% de Éxito";
+
+/* Profile View Missing */
+"profile.appName" = "Habit Tracker";
+"profile.appearance" = "Apariencia";
+"profile.darkModeTitle" = "Modo Oscuro";
+"profile.notifications" = "Notificaciones";
+"profile.reminders" = "Recordatorios";
+"profile.reminderTime" = "Hora del Recordatorio";
+"profile.dataManagementTitle" = "Datos";
+"profile.exportDataTitle" = "Exportar Datos";
+"profile.exportButton" = "Exportar";
+"profile.deleteDataTitle" = "Eliminar Todos los Datos";
+"profile.deleteButton" = "Eliminar";
+"profile.appInfo" = "Info de la App";
+"profile.versionTitle" = "Versión";
+"profile.madeWithLove" = "Hecho con ❤️";
+"profile.quickOverview" = "Resumen Rápido";
+"profile.thisWeek" = "Esta Semana";
+"profile.streak" = "Racha";
+"profile.activeHabits" = "%d hábitos activos";
+
+/* Habit Management */
+"habit.delete" = "Eliminar hábito";
+"habit.deleteConfirmation" = "¿Realmente eliminar hábito?";
+"habit.deleteWarning" = "Esta acción no se puede deshacer. Se perderán todos los datos de este hábito.";
+"habit.edit" = "Editar hábito";
+
+/* Common */
+"common.done" = "Listo";
+"common.save" = "Guardar";
+"common.cancel" = "Cancelar";
+"common.delete" = "Eliminar";
+"common.edit" = "Editar";
+"common.add" = "Añadir";
+"common.close" = "Cerrar";
+
+/* Onboarding */
+"onboarding.welcome.title" = "Bienvenido a\nHabit Tracker";
+"onboarding.welcome.subtitle" = "Construye mejores hábitos,\nuno cada día.";
+"onboarding.welcome.getStarted" = "Comenzar";
+
+"onboarding.features.title" = "Todo lo que necesitas\npara tener éxito";
+"onboarding.features.subtitle" = "Sigue tu progreso, construye rachas\ny alcanza tus objetivos.";
+"onboarding.features.tracking.title" = "Seguimiento Simple";
+"onboarding.features.tracking.description" = "Un toque para marcar hábitos completos. Interfaz limpia, características poderosas.";
+"onboarding.features.streaks.title" = "Construir Rachas";
+"onboarding.features.streaks.description" = "Mantente motivado con contadores de rachas visuales y seguimiento del progreso.";
+"onboarding.features.insights.title" = "Estadísticas Inteligentes";
+"onboarding.features.insights.description" = "Análisis detallados te ayudan a entender mejor tus hábitos.";
+"onboarding.features.continue" = "Continuar";
+
+"onboarding.rating.title" = "¡Ayúdanos a crecer! 🚀";
+"onboarding.rating.subtitle" = "Si estás emocionado de construir mejores hábitos con nosotros, ¡nos encantaría tu apoyo!";
+"onboarding.rating.description" = "Una calificación rápida ayuda a otras personas a descubrir nuestra aplicación y nos motiva a seguir mejorando.";
+"onboarding.rating.rate" = "Calificar App";
+"onboarding.rating.later" = "Quizás Después";
+
+"onboarding.habits.title" = "Creemos tus\nprimeros hábitos";
+"onboarding.habits.subtitle" = "Elige algunos hábitos para comenzar.\n¡Siempre puedes agregar más después!";
+"onboarding.habits.suggestion.workout" = "Ejercicio Diario";
+"onboarding.habits.suggestion.meditation" = "Meditación";
+"onboarding.habits.suggestion.reading" = "Leer 30 minutos";
+"onboarding.habits.suggestion.water" = "Beber 8 vasos de agua";
+"onboarding.habits.suggestion.journal" = "Escribir en el diario";
+"onboarding.habits.suggestion.walk" = "Dar un paseo";
+"onboarding.habits.customHabit" = "Agregar Hábito Personalizado";
+"onboarding.habits.finish" = "Comenzar Mi Viaje";
+"onboarding.habits.skip" = "Saltar por ahora";
+
+"onboarding.complete.title" = "¡Todo listo! 🎉";
+"onboarding.complete.subtitle" = "Tu viaje de hábitos comienza ahora.";
+"onboarding.complete.start" = "Comenzar Seguimiento"; 

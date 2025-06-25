@@ -1,0 +1,149 @@
+/* Navigation */
+"nav.overview" = "Overview";
+"nav.daily" = "Daily";
+"nav.add" = "Add";
+"nav.stats" = "Stats";
+"nav.profile" = "Profile";
+
+/* Daily View */
+"daily.title" = "Today";
+"daily.progress" = "%d%%";
+"daily.streak" = "🔥 %d";
+"daily.completions" = "%d/%d";
+
+/* Calendar View */
+"calendar.title" = "Month";
+"calendar.today" = "Today";
+"calendar.selectedDay" = "Selected Day";
+"calendar.noHabits" = "No habits for this day";
+"calendar.completed" = "Completed";
+"calendar.notCompleted" = "Not completed";
+
+/* Add Habit View */
+"add.title" = "New Habit";
+"add.name" = "Name";
+"add.namePlaceholder" = "e.g. Meditation, Workout...";
+"add.icon" = "Icon";
+"add.color" = "Color";
+"add.category" = "Category";
+"add.targetCount" = "Daily Goal";
+"add.frequency" = "Frequency";
+"add.preview" = "Preview";
+"add.previewDefault" = "My new habit";
+"add.create" = "Create Habit";
+"add.nameRequired" = "Please enter a name";
+"add.targetDaily" = "%dx daily";
+"add.goalDaily" = "Goal: %dx daily";
+"add.close" = "Close";
+
+/* Categories */
+"category.fitness" = "Fitness";
+"category.health" = "Health";
+"category.wellness" = "Wellness";
+"category.education" = "Education";
+"category.creativity" = "Creativity";
+"category.social" = "Social";
+"category.productivity" = "Productivity";
+"category.general" = "General";
+
+/* Frequencies */
+"frequency.daily" = "Daily";
+"frequency.weekly" = "Weekly";
+"frequency.custom" = "Custom";
+
+/* Stats View */
+"stats.title" = "Statistics";
+"stats.timeframe.week" = "Week";
+"stats.timeframe.month" = "Month";
+"stats.timeframe.year" = "Year";
+"stats.overview" = "Overview";
+"stats.totalHabits" = "Total Habits";
+"stats.todayCompleted" = "Completed Today";
+"stats.averageCompletion" = "Average Completion Rate";
+"stats.bestStreak" = "Best Streak";
+"stats.habitPerformance" = "Habit Performance";
+"stats.topStreaks" = "Top Streaks";
+"stats.weeklyPattern" = "Weekly Pattern";
+"stats.noData" = "No data available";
+
+/* Profile View */
+"profile.title" = "Profile";
+"profile.settings" = "Settings";
+"profile.darkMode" = "Dark Mode";
+"profile.dataManagement" = "Data Management";
+"profile.exportData" = "Export Data";
+"profile.deleteAllData" = "Delete All Data";
+"profile.about" = "About";
+"profile.version" = "Version";
+"profile.habitCount" = "%d Habits";
+"profile.exportTitle" = "Export Data";
+"profile.exportDescription" = "Your habit data:";
+"profile.copyToClipboard" = "Copy to Clipboard";
+"profile.copied" = "Copied!";
+"profile.deleteConfirmation" = "Delete All Data?";
+"profile.deleteWarning" = "This action cannot be undone.";
+"profile.delete" = "Delete";
+"profile.cancel" = "Cancel";
+
+/* Days of Week */
+"day.monday" = "Mon";
+"day.tuesday" = "Tue";
+"day.wednesday" = "Wed";
+"day.thursday" = "Thu";
+"day.friday" = "Fri";
+"day.saturday" = "Sat";
+"day.sunday" = "Sun";
+
+/* Days of Week Short */
+"day.monday.short" = "Mon";
+"day.tuesday.short" = "Tue";
+"day.wednesday.short" = "Wed";
+"day.thursday.short" = "Thu";
+"day.friday.short" = "Fri";
+"day.saturday.short" = "Sat";
+"day.sunday.short" = "Sun";
+
+/* Sample Habits */
+"sample.workout" = "Workout";
+"sample.meditation" = "Meditation";
+"sample.reading" = "Read for 30 minutes";
+"sample.water" = "Drink water";
+
+/* Stats View Missing */
+"stats.timeframe.week" = "Week";
+"stats.timeframe.month" = "Month";
+"stats.timeframe.year" = "Year";
+"stats.streakAnalysis" = "Streak Analysis";
+"stats.days" = "Days";
+"stats.weeklyPatternTitle" = "Weekly Pattern";
+"stats.description" = "Your progress overview";
+"stats.successRate" = "%.0f%% Success Rate";
+
+/* Profile View Missing */
+"profile.appName" = "Habit Tracker";
+"profile.appearance" = "Appearance";
+"profile.darkModeTitle" = "Dark Mode";
+"profile.notifications" = "Notifications";
+"profile.reminders" = "Reminders";
+"profile.reminderTime" = "Reminder Time";
+"profile.dataManagementTitle" = "Data";
+"profile.exportDataTitle" = "Export Data";
+"profile.exportButton" = "Export";
+"profile.deleteDataTitle" = "Delete All Data";
+"profile.deleteButton" = "Delete";
+"profile.appInfo" = "App Info";
+"profile.versionTitle" = "Version";
+"profile.madeWithLove" = "Made with ❤️";
+"profile.quickOverview" = "Quick Overview";
+"profile.thisWeek" = "This Week";
+"profile.streak" = "Streak";
+"profile.activeHabits" = "%d active habits";
+
+/* Common */
+"common.done" = "Done";
+"common.save" = "Save";
+"common.cancel" = "Cancel";
+"common.delete" = "Delete";
+"common.edit" = "Edit";
+"common.add" = "Add";
+"common.close" = "Close"; 
