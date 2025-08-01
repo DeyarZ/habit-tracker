@@ -1367,6 +1367,7 @@ struct PremiumDateDetails: View {
     let selectedDate: Date
     let habits: [Habit]
     let allCompletions: [HabitCompletion]
+    @Environment(\.modelContext) private var modelContext
     
     private let calendar = Calendar.current
     
@@ -1415,8 +1416,12 @@ struct PremiumDateDetails: View {
                     PremiumDateHabitRow(
                         habit: habit,
                         isCompleted: isCompleted,
+                        selectedDate: selectedDate,
+                        allCompletions: allCompletions,
                         animationDelay: Double(index) * 0.1
-                    )
+                    ) {
+                        toggleHabitCompletion(habit, for: selectedDate)
+                    }
                 }
             }
         }
@@ -1428,16 +1433,62 @@ struct PremiumDateDetails: View {
         )
         .shadow(color: .black.opacity(0.1), radius: 20, x: 0, y: 10)
     }
+    
+    private func toggleHabitCompletion(_ habit: Habit, for date: Date) {
+        let targetDate = calendar.startOfDay(for: date)
+        let currentCompletions = habit.completionsForDate(date, allCompletions: allCompletions)
+        
+        if currentCompletions >= habit.targetCount {
+            // If fully completed, remove all completions for this date
+            let completionsToDelete = allCompletions.filter { completion in
+                completion.habitId == habit.id && 
+                calendar.isDate(completion.date, inSameDayAs: targetDate)
+            }
+            
+            for completion in completionsToDelete {
+                modelContext.delete(completion)
+            }
+            
+            // Haptic feedback for unchecking
+            FeedbackGenerator.impact(.light)
+        } else {
+            // Add one more completion
+            let completion = HabitCompletion(habitId: habit.id, date: targetDate)
+            modelContext.insert(completion)
+            
+            // Different feedback based on whether target is reached
+            if currentCompletions + 1 >= habit.targetCount {
+                // Target reached - stronger feedback
+                FeedbackGenerator.impact(.heavy)
+            } else {
+                // Progress - medium feedback
+                FeedbackGenerator.impact(.medium)
+            }
+        }
+        
+        do {
+            try modelContext.save()
+            
+            // Update widgets when data changes
+            WidgetCenter.shared.reloadTimelines(ofKind: "HabitTrackerWidget")
+        } catch {
+            print("Error saving habit completion: \(error)")
+        }
+    }
 }
 
 // MARK: - Premium Date Habit Row
 struct PremiumDateHabitRow: View {
     let habit: Habit
     let isCompleted: Bool
+    let selectedDate: Date
+    let allCompletions: [HabitCompletion]
     let animationDelay: Double
+    let onToggle: () -> Void
     @State private var appear = false
     
     var body: some View {
+        Button(action: onToggle) {
         HStack(spacing: 16) {
             // Icon
             ZStack {
@@ -1489,6 +1540,8 @@ struct PremiumDateHabitRow: View {
         .onAppear {
             appear = true
         }
+        }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
